@@ -1,0 +1,38 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "npm run development -- --watch",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "test": "cross-env NODE_ENV=test jest "
+    },
+    "devDependencies": {
+        "axios": "^0.18",
+        "babel-jest": "^22.4.3",
+        "babel-plugin-add-module-exports": "^0.2.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-preset-react": "^6.23.0",
+        "bootstrap": "^4.0.0",
+        "cross-env": "^5.1",
+        "enzyme": "^3.6.0",
+        "enzyme-adapter-react-16": "^1.1.1",
+        "enzyme-to-json": "^3.3.4",
+        "identity-obj-proxy": "^3.0.0",
+        "jest": "^22.4.3",
+        "jquery": "^3.2",
+        "laravel-mix": "^2.0",
+        "lodash": "^4.17.5",
+        "popper.js": "^1.12",
+        "react": "^16.2.0",
+        "react-dom": "^16.2.0"
+    },
+    "dependencies": {
+        "history": "^4.7.2",
+        "prop-types": "^15.6.2",
+        "react-router-dom": "^4.2.2"
+    }
+}

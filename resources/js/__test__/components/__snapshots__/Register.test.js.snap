@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Register /> should render correctly 1`] = `
+<form
+  onSubmit={[Function]}
+  style={
+    Object {
+      "margin": "2rem auto",
+      "width": "60%",
+    }
+  }
+>
+  <h4
+    className="text-center"
+  >
+    Register Now
+  </h4>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="email"
+    >
+      Name
+    </label>
+    <input
+      className="form-control "
+      id="name"
+      name="name"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="form-control "
+      id="email"
+      name="email"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      className="form-control "
+      id="password"
+      name="password"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    className="form-group"
+  >
+    <label
+      htmlFor="email"
+    >
+      Confirm Password
+    </label>
+    <input
+      className="form-control "
+      id="password_confirmation"
+      name="password_confirmation"
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+  </div>
+  <button
+    className="btn btn-primary"
+    type="submit"
+  >
+    Register
+  </button>
+</form>
+`;

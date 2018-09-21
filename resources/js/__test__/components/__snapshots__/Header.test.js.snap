@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render correctly 1`] = `
+<nav
+  className="navbar navbar-expand-md navbar-light navbar-laravel"
+>
+  <div
+    className="container"
+  >
+    <Link
+      className="navbar-brand"
+      replace={false}
+      to="/"
+    >
+      ArticulaR
+    </Link>
+  </div>
+</nav>
+`;

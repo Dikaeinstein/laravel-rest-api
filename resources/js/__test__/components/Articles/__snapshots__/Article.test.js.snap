@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Article /> should render correctly 1`] = `
+<div
+  className="list-group-item list-group-item-action d-flex justify-content-between align-items-center"
+  key="1"
+  title="Click to view article detail"
+>
+  Test Article
+  <Link
+    className="btn btn-primary btn-sm mb-3"
+    replace={false}
+    to="articles/1"
+  >
+    View Detail
+  </Link>
+</div>
+`;
